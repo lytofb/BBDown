@@ -1430,13 +1430,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pomdp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#00a65a;fontColor=#006b3c;fontSize=13;fontFamily=SimSun;arcSize=12;" value="&lt;div&gt;&lt;b&gt;任务建模&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;POMDP 环境&lt;/b&gt;&lt;/div&gt;&lt;div&gt;\(s_t,\;o_t,\;a_t\)&lt;/div&gt;" vertex="1">
+        <mxCell id="pomdp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#00a65a;fontColor=#006b3c;fontSize=12;fontFamily=SimSun;arcSize=12;" value="&lt;div&gt;&lt;b&gt;任务建模&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;POMDP 环境&lt;/b&gt;&lt;/div&gt;&lt;div&gt;\(s_t,\;o_t,\;a_t\)&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="120" x="139" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="history" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef8ff;strokeColor=#0078d7;fontColor=#005a9e;fontSize=13;fontFamily=SimSun;arcSize=12;" value="&lt;div&gt;&lt;b&gt;历史上下文&lt;/b&gt;&lt;/div&gt;&lt;div&gt;\(h_t\)&lt;/div&gt;&lt;div&gt;\((o_{t-H:t},\;a_{t-H:t-1})\)&lt;/div&gt;" vertex="1">
+        <mxCell id="history" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef8ff;strokeColor=#0078d7;fontColor=#005a9e;fontSize=12;fontFamily=SimSun;arcSize=12;" value="&lt;div&gt;&lt;b&gt;历史上下文&lt;/b&gt;&lt;/div&gt;&lt;div&gt;\(h_t\)&lt;/div&gt;&lt;div&gt;\((o_{t-H:t},\;a_{t-H:t-1})\)&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="289" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="policy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0ff;strokeColor=#4b4be8;fontColor=#3333aa;fontSize=13;fontFamily=SimSun;arcSize=10;" value="&lt;div&gt;&lt;b&gt;统一策略表示&lt;/b&gt;&lt;/div&gt;&lt;div&gt;\(a_t \sim \pi_{\theta}(\cdot \mid h_t)\)&lt;/div&gt;" vertex="1">
+        <mxCell id="policy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0ff;strokeColor=#4b4be8;fontColor=#3333aa;fontSize=12;fontFamily=SimSun;arcSize=10;" value="&lt;div&gt;&lt;b&gt;统一策略表示&lt;/b&gt;&lt;/div&gt;&lt;div&gt;\(a_t \sim \pi_{\theta}(\cdot \mid h_t)\)&lt;/div&gt;" vertex="1">
           <mxGeometry height="55" width="200" x="489" y="70" as="geometry" />
         </mxCell>
         <mxCell id="high" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#f28c00;fontColor=#bf6000;fontSize=12;fontFamily=SimSun;arcSize=12;" value="&lt;div&gt;&lt;b&gt;高层离散决策&lt;/b&gt;&lt;/div&gt;&lt;div&gt;离散动作集合 /&lt;/div&gt;&lt;div&gt;token 序列&lt;/div&gt;&lt;div&gt;下一动作预测与&lt;/div&gt;&lt;div&gt;泛化学习&lt;/div&gt;" vertex="1">
@@ -1448,7 +1448,7 @@
         <mxCell id="action" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9f2ff;strokeColor=#0099cc;fontColor=#005b80;fontSize=12;fontFamily=SimSun;arcSize=10;" value="&lt;div&gt;&lt;b&gt;动作表征与动作分块&lt;/b&gt;&lt;/div&gt;&lt;div&gt;单步动作 / 动作块 \(A_t\)&lt;/div&gt;&lt;div&gt;\(A_t=(a_t,\ldots,a_{t+T_p-1})\)&lt;/div&gt;&lt;div&gt;滚动预测：执行前 \(K\) 步后重新规划&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="220" x="469" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="env" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#00a65a;fontColor=#006b3c;fontSize=13;fontFamily=SimSun;arcSize=10;" value="&lt;div&gt;&lt;b&gt;环境交互与闭环执行&lt;/b&gt;&lt;/div&gt;&lt;div&gt;执行动作 → 状态转移 → 获取新观测&lt;/div&gt;&lt;div&gt;形成持续反馈与纠偏&lt;/div&gt;" vertex="1">
+        <mxCell id="env" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#00a65a;fontColor=#006b3c;fontSize=12;fontFamily=SimSun;arcSize=10;" value="&lt;div&gt;&lt;b&gt;环境交互与闭环执行&lt;/b&gt;&lt;/div&gt;&lt;div&gt;执行动作 → 状态转移 → 获取新观测&lt;/div&gt;&lt;div&gt;形成持续反馈与纠偏&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="220" x="469" y="430" as="geometry" />
         </mxCell>
         <mxCell id="eval" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#555555;fontSize=12;fontFamily=SimSun;dashed=1;dashPattern=4 3;arcSize=10;align=left;spacingLeft=8;" value="&lt;div style=&quot;text-align:left&quot;&gt;评估与研究关注点&lt;/div&gt;&lt;div style=&quot;text-align:left&quot;&gt;• 成功率 / 平均得分 / 时延 / 吞吐率&lt;/div&gt;&lt;div style=&quot;text-align:left&quot;&gt;• 泛化能力 + 高效部署&lt;/div&gt;" vertex="1">
